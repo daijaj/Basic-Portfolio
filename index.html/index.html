@@ -1,0 +1,74 @@
+<!-- HTML Bio with CSS -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Daija C. Jones</title>
+
+  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border: 1px solid #e7e7e7;
+            background-color: #ffffff;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: rgb(226, 226, 226);
+        }
+        
+        li a.active {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a class="active" href="#aboutme">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+  <header>
+    <h1>Daija C. Jones</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h1>About Me</h1>
+      <img src="https://pbs.twimg.com/profile_images/959514738915868672/5g75BVqL_400x400.jpg" data-height="500" data-width="500" style="margin-top: 50px;" alt="Your Image" id="bio-image">
+      <p>My name is Daija Cozier Jones. I reside in Rose Park, UT with my mom and two brothers. In my 18 years on this glorious cluster of elements we call Earth I have spent at least 15 questioning everday functions in an attempt to understand our world. Of those 15 years, I have spent 12 creating in an attempt to understand and reflect on our world. I am hopeful that coding will become another form of my Earthly expression.</a></p>
+
+            
+    </section>
+  </div>  
+
+  
+</body>
+
+</html>
